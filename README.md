@@ -1,7 +1,7 @@
 # registre-login
-#CREATE TABLE users (
-#  id int(12) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-#  username varchar(100) NOT NULL,
-#  email varchar(100) NOT NULL,
-#  password varchar(100) NOT NULL
-#) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE users ( /n
+  id int(12) NOT NULL AUTO_INCREMENT PRIMARY KEY, /n
+  username varchar(100) NOT NULL, /n
+  email varchar(100) NOT NULL, /n
+  password varchar(100) NOT NULL /n
+) ENGINE=InnoDB DEFAULT CHARSET=utf8; /n
